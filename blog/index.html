@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ahmet'in Blogu</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="container" style="display: none;">
+		<iframe id="post" style="display: none;"></iframe>
+	</div>
+	<img src="assets/x.png" id="close" onclick="hideiFrame()" style="display: none;">
+	<canvas id="canvas"></canvas>
+	<div id="settings">
+		Zemin Kayganlığı&nbsp;<input type="range" value=".5" min="0" step=".001" max="1" id="zemin">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Hız&nbsp;<input type="range" value="300" min="1" max="1500" id="hız">
+	</div>
+	<script src="canvas.js"></script>
+</body>
+
+</html>
