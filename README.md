@@ -3,5 +3,5 @@ This is a personal blog I made back in 2021 for a school project. It has dynamic
 
 ## How to Run
 - `$ npm i`
-- `$ npm server.js`
+- `$ node server.js`
 - visit `localhost:2057` (or `127.0.0.1:2057`) using your browser of choice
